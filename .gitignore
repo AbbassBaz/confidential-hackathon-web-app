@@ -1,0 +1,94 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+__tests__
+*.test.js
+*.spec.js
+
+# Production
+dist
+dist-ssr
+build
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+.firebaserc
+ui-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache directories
+.cache
+.mf
+.rollup.cache
+tsconfig.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Temporary files
+*.tmp
+*.temp
+.temp
+.tmp
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Vercel
+.vercel
+.now
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
